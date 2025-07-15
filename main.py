@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from config.conf import settings
-from routes.search import router
-from database.connection import init_db, close_db
+from app.config.conf import settings
+from app.routes.search import router
+from app.database.connection import init_db, close_db
 import uvicorn
 
 def lifespan(app: FastAPI):
