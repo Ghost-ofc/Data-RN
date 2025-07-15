@@ -3,3 +3,4 @@ fastapi
 pydantic_settings
 uvicorn
 sqlalchemy-cockroachdb
+psycopg2
