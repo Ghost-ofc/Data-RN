@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Query
 from sqlalchemy import text
-from database.connection import engine
+from app.database.connection import engine
 
 router = APIRouter()
 
